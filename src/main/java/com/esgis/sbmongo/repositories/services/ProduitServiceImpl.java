@@ -36,7 +36,7 @@ public class ProduitServiceImpl implements ProduitService {
     }
 
     @Override
-    public void deleteproduit(String id) {
+    public void deleteProduit(String id) {
         Optional<Produit> data= findById(id);
         if(data.isPresent()){
             produitRepo.deleteById(id);

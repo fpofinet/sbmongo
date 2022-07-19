@@ -16,5 +16,5 @@ public interface ProduitService {
     public Produit saveProduit(Produit p);
     public Optional<Produit> findById(String id);
     public List<Produit> findAll();
-    public void deleteproduit(String id);
+    public void deleteProduit(String id);
 }
